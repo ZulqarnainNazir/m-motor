@@ -9,13 +9,13 @@
 	$errflag = false;
 	
 	//Connect to mysql server
-	$link = mysql_connect('localhost','root',"");
+	$link = mysql_connect('sql12.freemysqlhosting.net','sql12220932',"H2F99QX48W");
 	if(!$link) {
 		die('Failed to connect to server: ' . mysql_error());
 	}
 	
 	//Select database
-	$db = mysql_select_db('sales', $link);
+	$db = mysql_select_db('sql12220932', $link);
 	if(!$db) {
 		die("Unable to select database");
 	}
