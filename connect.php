@@ -1,9 +1,9 @@
 <?php
 /* Database config */
-$db_host		= 'localhost';
-$db_user		= 'root';
-$db_pass		= '';
-$db_database	= 'sales'; 
+$db_host		= 'sql12.freemysqlhosting.net';
+$db_user		= 'sql12220932';
+$db_pass		= 'H2F99QX48W';
+$db_database	= 'sql12220932'; 
 
 /* End config */
 
